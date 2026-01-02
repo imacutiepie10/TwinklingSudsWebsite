@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twinkling Suds</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+   @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wdth,wght@0,5..1200,104.5,300..900;1,5..1200,104.5,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+  </style>
+</head>
+
+<body>
+
+  <!------------------------------------------NAVIGATION BAR---------------------------------------------->
+  <nav class="navbar">
+    <img src="./image/logo.png" alt="Twinkling Suds Logo" class="logo">
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!--------------------------------------------HOME PAGE--------------------------------------------------->
+  <div class="home" id="home">
+   <h1 class="mb-10 text-5xl">Let Your <b>Laundry Twinkle</b></h1>
+    <section class="home relative w-full h-full">
+
+      <div class="medium-bubble bubble" style="top:30%; left: 5%;">
+        <img src="./image/home 1.jpg" alt="Laundry Shop" class="pic">
+      </div>
+
+      <div class="small-bubble bubble" style="top:5%; left: 5%;">
+        <img src="./image/home 2.jfif" alt="Laundry Shop" class="pic">
+      </div>
+
+      <div class="large-bubble bubble" style="top: 30%; right: 1%;">
+        <img src="./image/home 3.jfif" alt="Laundry Shop" class="pic">
+      </div>
+
+      <div class="medium-bubble bubble" style="bottom: 10%; left: 15%;">
+        <img src="./image/home 4.avif" alt="Laundry Shop" class="pic">
+      </div>
+
+      <div class="medium-bubble bubble" style="bottom: 1%; right: 20%;">
+        <img src="./image/home 5.jfif" alt="Laundry Shop" class="pic">
+      </div>
+
+      <div class="large-bubble bubble" style="top: 10%; left: 20%;">
+        <img src="./image/home 6.webp" alt="Laundry Shop" class="pic">
+      </div>
+
+      <div class="large-bubble bubble" style="bottom: 40%; right: 25%;">
+        <img src="./image/home 7.jpeg" alt="Laundry Shop" class="pic">
+      </div>
+
+      <div class="small-bubble bubble" style="top: 3%; right: 2%;">
+        <img src="./image/home 8.jpg" alt="Laundry Shop" class="pic">
+      </div>
+
+      <div class="washing-machine">
+
+        <div class="panel">
+          <div class="button" id="abt" title="About">About</div>
+          <div class="button" id="hst" title="Terms & Policies">Policies</div>
+          <div class="button" id="faqs" title="Frequently Asked Questions">FAQ's</div>
+        </div>
+
+        <hr class="line">
+
+        <div class="door">
+          <div class="drum">
+            <img src="./image/STARRY.png" alt="star" class="star">
+          </div>
+        </div>
+
+      </div>
+  
+  
+    
+    </section>
+
+  </div>
+
+<!---------------------------------- POPUPS IN THE WASHING MACHINE PANELS---------------------------------->
+<!-- ABOUT -->
+
+  <div class="modal" id="aboutModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>About Twinkling Suds!</h2>
+         <p>Every wash is designed to protect your clothes while making laundry simple and stress-free.</p><br>
+         <p>At Twinkling Suds, we believe laundry does not have to be a chore. It can be simple, satisfying and even a bit magical.</p>
+    </div>
+  </div>
+
+<!-- POLICIES -->
+  <div class="modal" id="policyModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Terms & Policies</h2>
+      <ul style="text-align:left;">
+        <li>1. Clothes washed per customer load.</li>
+        <li>2. Whites & colors separated.</li>
+        <li>3. Payment upon pickup.</li>
+        <li>4. Comforters are priced separately.</li>
+      </ul>
+    </div>
+  </div>
+
+<!-- FAQ -->
+  <div class="modal" id="faqModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Frequently Asked Questions</h2><br>
+      <p><b>How long does it take?</b><br>Most regular loads are ready within 6 hours. However, with heavy loads it would be ready within 24 hours.</p><br>
+      <p><b>Do you offer pickup and delivery?</b><br>We unfortunately do not have this service because of our limited resources.</p><br>
+      <p><b>What if an item gets damaged?</b><br>We treat every item with care, but if an item is damaged, we provide full repair and give refunds.</p><br>
+      <p><b>What are your operating hours?</b><br>We are open Monday to Friday from 9:00 AM to 7:00 PM, and Saturdays from 9:00 AM to 2:00 PM.</p><br>
+    </div>
+  </div>
+  
+<!---------------------------------------------PRICING PAGE----------------------------------------------->
+
+<div class="pricing" id="pricing">
+  <div class="pricing-header">
+    <img src="./image/STARRY.png" class="pricing-star">
+    <h2>Pricing Services</h2>
+    <img src="./image/STARRY.png" class="pricing-star">
+  </div>
+
+  <div class="full-service-card">
+    <h3>Full Service</h3>
+    <div class="price">₱ 185</div>
+  </div>
+
+  <div class="services-grid">
+
+    <div class="service-card">
+      <div class="service-window">
+        <img src="./image/wash.webp" alt="Wash">
+      </div>
+      <div class="service-details">
+        <span class="name">Wash</span>
+        <span class="price">₱ 60</span>
+      </div>
+    </div>
+
+        <div class="service-card">
+      <div class="service-window">
+        <img src="./image/dry.jpg" alt="Dry">
+      </div>
+      <div class="service-details">
+        <span class="name">Dry</span>
+        <span class="price">₱ 65</span>
+      </div>
+    </div>
+
+        <div class="service-card">
+      <div class="service-window">
+        <img src="./image/fold.jpg" alt="Fold">
+      </div>
+      <div class="service-details">
+        <span class="name">Fold</span>
+        <span class="price">₱ 30</span>
+      </div>
+    </div>
+
+        <div class="service-card">
+      <div class="service-window">
+        <img src="./image/soap2.jpg" alt="Soap">
+      </div>
+      <div class="service-details">
+        <span class="name">Soap</span>
+        <span class="price">₱ 15</span>
+      </div>
+    </div>
+
+        <div class="service-card">
+      <div class="service-window">
+        <img src="./image/fabcon.png" alt="Fabcon">
+      </div>
+      <div class="service-details">
+        <span class="name">Fabcon</span>
+        <span class="price">₱ 15</span>
+      </div>
+    </div>
+
+        <div class="service-card">
+      <div class="service-window">
+        <img src="./image/comforter.webp" alt="Comforter">
+      </div>
+      <div class="service-details">
+        <span class="name">Comforter</span>
+        <span class="price">₱ 250</span>
+      </div>
+    </div>
+
+
+
+    </div>
+</div>
+
+
+ 
+<!---------------------------------------------CONTACT PAGE---------------------------------------------->
+<div class="contact" id="contact">
+  <section>
+    <div class="content">
+      <h2 class="header_contact"><b>Contact Twinkling Suds!</b></h2>
+
+      <div class="subtitle_contact">
+        <p>Got questions or ready to let your<br>laundry twinkle? We're here to help.</p>
+      </div>
+    </div>
+
+    <div class="contact_border">
+
+      <div class="contact_info">
+
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="contact_text">
+            <h3>Address</h3>
+            <p>Union Dr. Extension, Brgy. New Era, Quezon City</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="contact_text">
+            <h3>Phone Number</h3>
+            <p>09** *** ****</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="contact_text">
+            <h3>Email</h3>
+            <p>basta@gmail.com</p>
+          </div>
+        </div>
+
+      </div>
+          <div class="contact_form">
+      <form>
+        <h2>Send Message</h2>
+
+        <div class="input_box">
+          <input type="text" required>
+          <span>Full Name</span>
+        </div>
+
+        <div class="input_box">
+          <input type="text" required>
+          <span>Email</span>
+        </div>
+
+        <div class="input_box">
+          <textarea required></textarea>
+          <span>Type your message...</span>
+        </div>
+
+        <div class="input_box">
+          <input type="submit" value="Send">
+        </div>
+
+      </form>
+    </div>
+    </div>
+
+
+
+  </section>
+</div>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
